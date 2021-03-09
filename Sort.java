@@ -151,7 +151,7 @@ public class Sort {
         }
     }
 
-    // quicksort using Lomuto's partition and median-of-three pivot choice
+    // quicksort using Lomuto's partition and Wirth's median-of-three pivot choice
     public static void quickSort(int[] arr) {
         quickSort(arr, false);
     }
